@@ -1,0 +1,12 @@
+
+input {
+    background-color: yellow;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p.border {
+    border: 2px solid;
+}

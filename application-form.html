@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h2>Job Application</h2>
+
+    <p class="border">Please fill out the following form before submitting your application.</p>
+
+    <form action="/application" method="POST">
+      <p><label for="first_name">First Name: <input type="text" name="first_name"></label></p>
+      <p><label>Last Name: <input type="text" name="last_name" class="bold"></label></p>
+      <p><label>Minimum Salary Requirement (pleae enter a number only): <input type="text" name="salary"></label></p>
+      <p><label for="job_title">For which job are you applying?: </label><select name="job_title">
+          <option value="software_engineer">Software Engineer</option>
+          <option value="qa_engineer">QA Engineer</option>
+          <option value="product_manager">Product Manager</option>
+        </select></p>
+      <p><input type="submit"></p>
+    </form>
+
+</body>
+</html>
